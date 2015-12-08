@@ -1,4 +1,365 @@
 <resources>
     <string name="app_name">Practica5</string>
     <string name="title_parche_detail">¿Qué hay para hacer hoy?</string>
+    <string name="descrip">Descripción: </string>
+    <string name="datos">Datos: </string>
+
+    //LISTA PRINCIPAL
+    <string-array name="hotel1">
+        <!--Titulo [0] -->
+        <item>CASA KIWI </item>
+        <!--Descripcion  [1]-->
+        <item>Casa Kiwi en El Poblado es un lugar fantástico. Los precios van desde 20.000 pesos por noche e incluyen wi-fi gratis, cocina, una mesa de billar y una preciosa piscina que es el mejor plan para relajarse en Medellín durante un día soleado. Esta es la posada para mochileros más antigua y, sin duda, uno de los albergues más grandes de la ciudad. Además, está muy bien ubicado para salir a dar una vuelta en las tardes y noches.</item>
+        <!--Datos-->
+        <!--Direccion [2]-->
+        <item>Carrera 36 No. 7-10</item>
+        <!--Telefono  [3]-->
+        <item>268 2668</item>
+        <!--URL        [4]-->
+        <item>http://www.casakiwihostel.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Casa-Kiwi-Hostel-Medellin-149450225071557/?fref=ts</item>
+        <!--Mapa-->
+        <!--LATITUD    [6]-->
+        <item>6.2064377</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5682336</item>
+    </string-array>
+
+    <string-array name="hotel2">
+        <!--Titulo [0] -->
+        <item>HOSTAL OVEJA NEGRA </item>
+
+        <!--Descripcion  [1]-->
+        <item>Es un hostal que fue fundado hace cinco años por un Neozelandés. La Oveja Negra es un lugar agradable y muy popular, con gran pantalla de televisión y wi-fi. Sin duda, un lugar ideal para conocer a otros viajeros.</item>
+        <!--Direccion [2]-->
+        <item>5A transversal, No. 45-133 </item>
+        <!--Telefono  [3]-->
+        <item>268 2668</item>
+        <!--URL        [4]-->
+        <item>http://www.blacksheepmedellin.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Black-Sheep-Hostel-174294435928342/</item>
+        <!--Mapa-->
+        <!--LATITUD    [6]-->
+        <item>6.2064377</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5682336</item>
+    </string-array>
+
+
+
+
+    <string-array name="hotel3">
+        <!--Titulo [0] -->
+        <item>HOTEL LA HABANA VIEJA</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>cuenta con 18 habitaciones, cada una con capacidad para 5 personas. La decoración es de estilo colonial de La Habana, hay una antesala acogedora con 2 baños, un parque y un bar al aire libre.</item>
+        <!--Direccion [2]-->
+        <item>Calle 10 - Sur, # 43 A - 7</item>
+        <!--Telefono  [3]-->
+        <item>(57 4) 321 25 57 - (57) 317 644 5788</item>
+        <!--URL        [4]-->
+        <item>http://www.hotellahabanaviejamedellin.com</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Hotel-La-Habana-Vieja-Medellín-771303346271247/</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.1964277</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5776772</item>
+
+    </string-array>
+
+    <string-array name="cine1">
+        <!--Titulo [0] -->
+        <item>Procinal</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>¿Alguna vez te ha pasado que quieres regalar algo significativo y no sabes qué? Con nuestros bonos, ahora tienes la oportunidad de regalar algo inolvidable y sin complicarte en absoluto! Son válidos para todas las salas y confiterías de los  Cinemas Procinal en Medellín, Rionegro y Apartadó, cualquier hora, día y función. Es un regalo Ideal para amigos, familiares o empleados para toda ocasión y un excelente incentivo para premiar a tu equipo de trabajo o clientes..</item>
+        <!--Direccion [2]-->
+        <item>Cra 48 #10-45</item>
+        <!--Telefono  [3]-->
+        <item>(574)4442244</item>
+        <!--URL        [4]-->
+        <item>http://procinal.com/home.php</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/procinal/?fref=ts</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.212894</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5785303</item>
+
+    </string-array>
+
+    <string-array name="cine2">
+        <!--Titulo [0] -->
+        <item>Cine Colombia</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>\n¿POR QUÉ LOS BONOS CINECO? \nLos Bonos Cineco son entradas individuales redimibles en cualquier teatro, día y función, en localidad general y le permiten disfrutar de precios especiales a nivel nacional. Para adquirirlos ver condiciones de venta. \n¿POR QUÉ LA TARJETA CINECO? \nCon su Tarjeta Cineco y nuestro Portal usted podrá realizar la compra o reservas de sus boletas de cine sin tener que moverse de su computador.</item>
+        <!--Direccion [2]-->
+        <item>C.c Los molinos</item>
+        <!--Telefono  [3]-->
+        <item>(574)3602463</item>
+        <!--URL        [4]-->
+        <item>http://www.cinecolombia.com/medellin</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/cinecolombiaoficial</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2331753</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.6063687</item>
+
+    </string-array>
+
+    <string-array name="cine3">
+        <!--Titulo [0] -->
+        <item>Royal Films</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Celebre el cumpleaños de sus niños, amigos, miembros de oficina o de la empresa en las mejores salas de cine del país; donde podrá elegir el paquete que quiera para disfrutar en compañía de sus invitados más allegados. Te regalaremos globos, las tarjetas de invitación y la decoración básica con motivos de película.</item>
+        <!--Direccion [2]-->
+        <item>C.c El bosque plaza</item>
+        <!--Telefono  [3]-->
+        <item>(575)3855100</item>
+        <!--URL        [4]-->
+        <item>http://www.royal-films.com/index.php</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/RoyalFilms</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2689957</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5655516</item>
+
+    </string-array>
+
+
+    <string-array name="rest1">
+        <!--Titulo [0] -->
+        <item>Hato viejo</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Hace más de treinta años, empezó la historia del Restaurante Hatoviejo cuando nació en la variante de Las Palmas frente al Hotel Intercontinental de Medellín, Colombia. Se buscaba dotar a la ciudad de un espacio acogedor para familias, empresarios y turistas, que reflejara la cultura paisa y a la vez ofrecer a los visitantes lo mejor de nuestra comida típica colombiana (Bandeja Paisa, Ajiaco, Sancocho, Mondong0, Sudado, etc.) complementada con  asados (también llamados “Planchitas” en Hatoviejo).</item>
+        <!--Direccion [2]-->
+        <item>Calle 6 Sur No.43A-227 4 Piso Local 6</item>
+        <!--Telefono  [3]-->
+        <item>321 19 65 - 321 19 66</item>
+        <!--URL        [4]-->
+        <item>http://hatoviejo.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/restaurantehatoviejo</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2150391</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5606013</item>
+
+    </string-array>
+
+
+    <string-array name="rest2">
+        <!--Titulo [0] -->
+        <item>o	Mondongo\´s</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Mondongo\’s; Restaurante único en su género, enfocado especialmente en la gastronomía típica antioqueña, un lugar donde la tradición y la cultura deleitan por su sabor y atención. Nuestra oferta se compone de 9 excelentes platos: Mondongo, Plato Típico Antioqueño, Pollo a la parrilla, Solomo a la parrilla, Cañón a la parrilla, Cañón en Salsa de Champiñones y Churrasco a la parrilla, Pescado a la Milanesa y Menú Infantil.</item>
+        <!--Direccion [2]-->
+        <item>Calle 10 # 38-38</item>
+        <!--Telefono  [3]-->
+        <item>3122346</item>
+        <!--URL        [4]-->
+        <item>http://www.mondongos.com.co/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/RestauranteMondongos/info/?tab=page_info</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2097078</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5700967</item>
+
+    </string-array>
+
+
+    <string-array name="rest3">
+        <!--Titulo [0] -->
+        <item>JyC</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Nació el 4 de Julio de 1.980, en la carrera 76 # 33 A 48, en un pequeño garaje del barrio Laureles de Medellín por la idea del padre y una tía del fundador, a quienes este ayudaba con su trabajo y quien por su afición a la cocina y experiencia en trabajos temporales en restaurantes de familiares, le indujeron a iniciar su propia empresa en el mismo ramo.</item>
+        <!--Direccion [2]-->
+        <item>Calle 30 A # 82 A - 26 Local 2057 - 2do piso</item>
+        <!--Telefono  [3]-->
+        <item>347 44 00</item>
+        <!--URL        [4]-->
+        <item>http://www.jycdelicias.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/jycdeliciascolombia/</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.1965146</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.6116026</item>
+
+    </string-array>
+
+
+    <string-array name="teatro1">
+        <!--Titulo [0] -->
+        <item>Metropolitano</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Asociación Medellín Cultural Medellín Cultural es una Asociación sin ánimo de lucro, dedicada desde 1975 a fomentar la cultura mediante la proyección y la difusión de diversas manifestaciones artísticas de carácter local, nacional e internacional.</item>
+        <!--Direccion [2]-->
+        <item>Calle 41 No. 57 - 30</item>
+        <!--Telefono  [3]-->
+        <item>(57 4) 232 28 58</item>
+        <!--URL        [4]-->
+        <item>http://www.teatrometropolitano.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Teatro-Metropolitano-José-Gutiérrez-Gómez-Medellín-312033859230/photos_stream?tab=photos</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2432169</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5797098</item>
+
+    </string-array>
+
+    <string-array name="teatro2">
+        <!--Titulo [0] -->
+        <item>Pequeño teatro de Medellín</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>La Asociación Pequeño Teatro de Medellín es una entidad artística sin ánimo de lucro, fundada el 12 de febrero de 1975 por Rodrigo Saldarriaga Sanín, quien lideró un grupo de actores interesados en profesionalizar la actividad teatral y en brindar a Medellín un espacio de reflexión teatral.</item>
+        <!--Direccion [2]-->
+        <item>Carrera 42 # 50A-12</item>
+        <!--Telefono  [3]-->
+        <item>(574)2393947</item>
+        <!--URL        [4]-->
+        <item>http://www.pequenoteatro.com/web/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/pequenoteatrodemedellin/timeline</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.247564</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5639232</item>
+
+    </string-array>
+
+    <string-array name="teatro3">
+        <!--Titulo [0] -->
+        <item>Teatro Matacandelas</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Por fuera parece una casa más de la calle Bomboná, con techos de tejas de barro ya casi negras por el paso de los años: una de esas casas viejas del centro que todavía se resisten a ser demolidas. Por dentro, en medio de esos muros de tapias gruesas, construidos a fines del siglo XIX, parece la casa tomada del cuento de Julio Cortázar: las paredes están llenas de afiches anunciando obras teatrales, hay gente que entra y sale llevando piezas de cartón pintadas de colores, muñecos, vestidos, pelucas; se oyen martillos golpeando tablas; suena el teléfono. A esa hora de la tarde, sólo hay silencio en el bar, que está cerrado, y en la sala de teatro, que está vacía y a oscuras. Pero por la noche, todo será distinto. Vendrán los duendes que se han apoderado de este caserón del viejo Medellín, se encenderán las luces y....</item>
+        <!--Direccion [2]-->
+        <item>Cl. 47 43-47</item>
+        <!--Telefono  [3]-->
+        <item>(574)215-1010</item>
+        <!--URL        [4]-->
+        <item>http://www.matacandelas.com/index.php</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/matacandelas</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2444812</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5668724</item>
+
+    </string-array>
+
+    <string-array name="bar1">
+        <!--Titulo [0] -->
+        <item>El blue</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>¿Cansado de los sonidos repetitivos del reggaeton? ¿No está de ánimo para encender las pistas de baile de un club de salsa? El Blue, ubicado cerca del Parque Lleras en la Calle 10 podría ser el lugar oerfecto para usted. Este lugar, para el cual no necesitará un alto presupuesto, presenta una variedad de ritmos alternativos con largos momentos de música rock y retro. Aquí escuchará de todo, desde The Clash y Rolling Stones hasta Rage Against the Machine y Metallica en un misma noche, alternando con un poco de indie, pop, electro y rock colombiano en una buena medida. Además, el lugar también es escenario de algunas bandas locales.</item>
+        <!--Direccion [2]-->
+        <item>Cll. 10 40-20</item>
+        <!--Telefono  [3]-->
+        <item>266 3047</item>
+        <!--URL        [4]-->
+        <item></item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Blue-Medellin-145792858776714/</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2099824</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5705314</item>
+
+    </string-array>
+
+    <string-array name="bar2">
+        <!--Titulo [0] -->
+        <item>3 CORDILLERAS</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Estando en Medellín puede notar que hay otras cervezas disponibles además de las habituales Águila o Club Colombia y que también son deliciosas. La cervecería responsable de este hecho es "Tres Cordilleras" y, así como suministran a diferentes baresde Medellín, el lugar abre sus puertas todos los jueves por la noche a visitantes que buscan disfrutar de la cerveza auténtica.</item>
+        <!--Direccion [2]-->
+        <item>Calle 30 # 44-176</item>
+        <!--Telefono  [3]-->
+        <item>4442337</item>
+        <!--URL        [4]-->
+        <item>http://www.3cordilleras.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/cerveza3cordilleras</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2452397</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5682087</item>
+
+    </string-array>
+
+    <string-array name="bar3">
+        <!--Titulo [0] -->
+        <item>El TIBIRI</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Este bar, ubicado en un sótano,es uno de los más famosos en Medellín para disfrutar una experiencia de salsa caliente y sudorosa que no olvidará. Es justo decir que El Tibiri no es el bar mejor decorado que va a encontrar, pero lo que le falta en el estilo se compensa con un buen ambiente. Las bebidas son económicas, no hay nada que temer en la pista de baile y, durante el fin de semana, es el lugar preferido de los jóvenes aficionados a la salsa.</item>
+        <!--Direccion [2]-->
+        <item>Calle 44B #70, cerca de la Estación Estadio</item>
+        <!--Telefono  [3]-->
+        <item></item>
+        <!--URL        [4]-->
+        <item>https://www.facebook.com/tibiri.bar</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/tibiri.bar</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2502739</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5908904</item>
+
+    </string-array>
+
+    <string-array name="name">
+        <!--Titulo [0] -->
+        <item></item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item></item>
+        <!--Direccion [2]-->
+        <item></item>
+        <!--Telefono  [3]-->
+        <item></item>
+        <!--URL        [4]-->
+        <item></item>
+        <!--facebook   [5]-->
+        <item></item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item></item>
+        <!--LONGITUD    [7]-->
+        <item></item>
+
+    </string-array>
+
 </resources>

@@ -1,11 +1,14 @@
 package com.example.alejolaya.practica5;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.annotation.DrawableRes;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.alejolaya.practica5.dummy.DummyContent;
@@ -55,7 +58,16 @@ public class ParcheDetailFragment extends Fragment {
         // Show the dummy content as text in a TextView.
         if (mItem != null) {
             //((TextView) rootView.findViewById(R.id.parche_detail)).setText(mItem.content);
-            ((WebView) rootView.findViewById(R.id.pagina_detail)).loadUrl(mItem.url);
+            //((WebView) rootView.findViewById(R.id.pagina_detail)).loadUrl(mItem.url);
+            ((ImageView)rootView.findViewById(R.id.ivDetail)).setImageResource(mItem.image);
+            ((TextView)rootView.findViewById(R.id.tv_Item_name)).setText(mItem.item_name);
+            ((TextView)rootView.findViewById(R.id.tv_Item_descrip)).setText(mItem.item_descrip);
+            ((TextView)rootView.findViewById(R.id.tv_Item_direccion)).setText(mItem.item_direccion);
+            ((TextView)rootView.findViewById(R.id.tv_Item_telefono)).setText(mItem.item_phone);
+            ((TextView)rootView.findViewById(R.id.tv_Item_url)).setText(mItem.item_url);
+            ((TextView)rootView.findViewById(R.id.tv_Item_fb)).setText(mItem.item_fb);
+
+
         }
 
         return rootView;
