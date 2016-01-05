@@ -48,8 +48,6 @@
     </string-array>
 
 
-
-
     <string-array name="hotel3">
         <!--Titulo [0] -->
         <item>HOTEL LA HABANA VIEJA</item>
@@ -361,5 +359,6 @@
         <item></item>
 
     </string-array>
+    <string name="title_activity_maps">Map</string>
 
 </resources>

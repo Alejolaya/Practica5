@@ -1,10 +1,18 @@
 package com.example.alejolaya.practica5;
 
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 /**
  * An activity representing a single Parche detail screen. This
@@ -15,15 +23,22 @@ import android.view.MenuItem;
  * This activity is mostly just a 'shell' activity containing nothing
  * more than a {@link ParcheDetailFragment}.
  */
-public class ParcheDetailActivity extends AppCompatActivity {
+public class ParcheDetailActivity extends FragmentActivity {
+    public ParcheDetailActivity() {
 
+    }
+
+    private GoogleMap mMap;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parche_detail);
-
+        String hotel1[]=getResources().getStringArray(R.array.hotel1);
+        String hotel2[]=getResources().getStringArray(R.array.hotel2);
+        String hotel3[]=getResources().getStringArray(R.array.hotel3);
+        setUpMapIfNeeded();
         // Show the Up button in the action bar.
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+       // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // savedInstanceState is non-null when there is fragment state
         // saved from previous configurations of this activity
@@ -46,6 +61,14 @@ public class ParcheDetailActivity extends AppCompatActivity {
                     .add(R.id.parche_detail_container, fragment)
                     .commit();
         }
+
+//-------------------------mapas
+       /*setContentView(R.layout.activity_parche_detail);
+        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);*/
+
     }
 
     @Override
@@ -64,4 +87,36 @@ public class ParcheDetailActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+//--------------------------mapas
+
+    private void setUpMapIfNeeded() {
+        // Do a null check to confirm that we have not already instantiated the map.
+        if (mMap == null) {
+            // Try to obtain the map from the SupportMapFragment.
+            mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map))
+                    .getMap();
+            // Check if we were successful in obtaining the map.
+            if (mMap != null) {
+                setUpMap();
+            }
+        }
+    }
+    private void setUpMap() {
+
+        mMap.addMarker(new MarkerOptions().position(new LatLng(0,0)).title("Marker"));
+    }
+
+    public void   setMarker(LatLng position,String title,String info,float opacity,float dimension1,float dimension2,int icon){
+        mMap.addMarker(new MarkerOptions()
+                        .position(position)
+                        .title(title)
+                        .snippet(info)
+                        .alpha(opacity)
+                        .anchor(dimension1, dimension2)
+                //.icon(BitmapDescriptorFactory.fromResource(icon))
+
+        );
+    }
+
+
 }

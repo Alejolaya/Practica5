@@ -45,48 +45,47 @@ public class ParcheListActivity extends FragmentActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parche_list);
-        /**
-         * agregar valores desde un recurso 
-         */
-        /**
-         * Hoteles
-         */
-        String hotel1[]=getResources().getStringArray(R.array.hotel1);
-        String hotel2[]=getResources().getStringArray(R.array.hotel2);
-        String hotel3[]=getResources().getStringArray(R.array.hotel3);
-        /**
-         * Cines
-         */
-        String cine1[]=getResources().getStringArray(R.array.cine1);
-        String cine2[]=getResources().getStringArray(R.array.cine2);
-        String cine3[]=getResources().getStringArray(R.array.cine3);
-        /**
-         * Teatro
-         */
-        String teatro1[]=getResources().getStringArray(R.array.teatro1);
-        String teatro2[]=getResources().getStringArray(R.array.teatro2);
-        String teatro3[]=getResources().getStringArray(R.array.teatro3);
-        /**
-         * restaurantes
-         */
-        String rest1[]=getResources().getStringArray(R.array.rest1);
-        String rest2[]=getResources().getStringArray(R.array.rest2);
-        String rest3[]=getResources().getStringArray(R.array.rest3);
-        /**
-         *
-         */
-
-        //"posicion","Titulo","Descripción","Direccion"."Telefono","URL","Facebook","Latitud","Longitud",(int)"imagen"
-        DummyContent.addItem(new DummyContent.DummyItem("1", hotel1[0],hotel1[1],hotel1[2],hotel1[3],hotel1[4],hotel1[5],Double.parseDouble(hotel1[6]),Double.parseDouble(hotel1[7]), R.drawable.acuamanlogo));
-        /*
+        if (savedInstanceState==null) {
 
 
-            DummyContent.addItem(new DummyContent.DummyItem("1", getResources().getString(R.string.menu1)));
-            DummyContent.addItem(new DummyContent.DummyItem("2", getResources().getString(R.string.menu2)));
-            DummyContent.addItem(new DummyContent.DummyItem("3", getResources().getString(R.string.menu3)));
+            /**
+             * agregar valores desde un recurso
+             */
+            /**
+             * Hoteles
+             */
+            String hotel1[] = getResources().getStringArray(R.array.hotel1);
+            String hotel2[] = getResources().getStringArray(R.array.hotel2);
+            String hotel3[] = getResources().getStringArray(R.array.hotel3);
+            /**
+             * Cines
+             */
+            String cine1[] = getResources().getStringArray(R.array.cine1);
+            String cine2[] = getResources().getStringArray(R.array.cine2);
+            String cine3[] = getResources().getStringArray(R.array.cine3);
+            /**
+             * Teatro
+             */
+            String teatro1[] = getResources().getStringArray(R.array.teatro1);
+            String teatro2[] = getResources().getStringArray(R.array.teatro2);
+            String teatro3[] = getResources().getStringArray(R.array.teatro3);
+            /**
+             * restaurantes
+             */
+            String rest1[] = getResources().getStringArray(R.array.rest1);
+            String rest2[] = getResources().getStringArray(R.array.rest2);
+            String rest3[] = getResources().getStringArray(R.array.rest3);
+            /**
+             *los elementos guardados en el strings.xml se cargan al dummyContent
+             */
 
-*/
-
+            //"posicion","Titulo","Descripción","Direccion"."Telefono","URL","Facebook","Latitud","Longitud",(int)"imagen"
+            //hoteles
+            DummyContent.addItem(new DummyContent.DummyItem("1", hotel1[0], hotel1[1], hotel1[2], hotel1[3], hotel1[4], hotel1[5], Double.parseDouble(hotel1[6]), Double.parseDouble(hotel1[7]), R.drawable.procinal));
+            DummyContent.addItem(new DummyContent.DummyItem("2", hotel2[0], hotel2[1], hotel2[2], hotel2[3], hotel2[4], hotel2[5], Double.parseDouble(hotel2[6]), Double.parseDouble(hotel2[7]), R.drawable.royalfilms));
+            DummyContent.addItem(new DummyContent.DummyItem("3", hotel3[0], hotel3[1], hotel3[2], hotel3[3], hotel3[4], hotel3[5], Double.parseDouble(hotel3[6]), Double.parseDouble(hotel3[7]), R.drawable.cinecolombia));
+//
+        }
         if (findViewById(R.id.parche_detail_container) != null) {
             // The detail container view will be present only in the
             // large-screen layouts (res/values-large and
