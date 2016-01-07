@@ -7,7 +7,7 @@
     //LISTA PRINCIPAL
     <string-array name="hotel1">
         <!--Titulo [0] -->
-        <item>CASA KIWI </item>
+        <item>Casa Kiwi </item>
         <!--Descripcion  [1]-->
         <item>Casa Kiwi en El Poblado es un lugar fantástico. Los precios van desde 20.000 pesos por noche e incluyen wi-fi gratis, cocina, una mesa de billar y una preciosa piscina que es el mejor plan para relajarse en Medellín durante un día soleado. Esta es la posada para mochileros más antigua y, sin duda, uno de los albergues más grandes de la ciudad. Además, está muy bien ubicado para salir a dar una vuelta en las tardes y noches.</item>
         <!--Datos-->
@@ -28,7 +28,7 @@
 
     <string-array name="hotel2">
         <!--Titulo [0] -->
-        <item>HOSTAL OVEJA NEGRA </item>
+        <item>Hostal Oveja Negra </item>
 
         <!--Descripcion  [1]-->
         <item>Es un hostal que fue fundado hace cinco años por un Neozelandés. La Oveja Negra es un lugar agradable y muy popular, con gran pantalla de televisión y wi-fi. Sin duda, un lugar ideal para conocer a otros viajeros.</item>
@@ -50,7 +50,7 @@
 
     <string-array name="hotel3">
         <!--Titulo [0] -->
-        <item>HOTEL LA HABANA VIEJA</item>
+        <item>Hotel la Habana Vieja</item>
         <!--Datos-->
         <!--Descripcion  [1]-->
         <item>cuenta con 18 habitaciones, cada una con capacidad para 5 personas. La decoración es de estilo colonial de La Habana, hay una antesala acogedora con 2 baños, un parque y un bar al aire libre.</item>
@@ -139,7 +139,7 @@
 
     <string-array name="rest1">
         <!--Titulo [0] -->
-        <item>Hato viejo</item>
+        <item>Hato Viejo</item>
         <!--Datos-->
         <!--Descripcion  [1]-->
         <item>Hace más de treinta años, empezó la historia del Restaurante Hatoviejo cuando nació en la variante de Las Palmas frente al Hotel Intercontinental de Medellín, Colombia. Se buscaba dotar a la ciudad de un espacio acogedor para familias, empresarios y turistas, que reflejara la cultura paisa y a la vez ofrecer a los visitantes lo mejor de nuestra comida típica colombiana (Bandeja Paisa, Ajiaco, Sancocho, Mondong0, Sudado, etc.) complementada con  asados (también llamados “Planchitas” en Hatoviejo).</item>
@@ -162,7 +162,7 @@
 
     <string-array name="rest2">
         <!--Titulo [0] -->
-        <item>o	Mondongo\´s</item>
+        <item>Mondongo\´s</item>
         <!--Datos-->
         <!--Descripcion  [1]-->
         <item>Mondongo\’s; Restaurante único en su género, enfocado especialmente en la gastronomía típica antioqueña, un lugar donde la tradición y la cultura deleitan por su sabor y atención. Nuestra oferta se compone de 9 excelentes platos: Mondongo, Plato Típico Antioqueño, Pollo a la parrilla, Solomo a la parrilla, Cañón a la parrilla, Cañón en Salsa de Champiñones y Churrasco a la parrilla, Pescado a la Milanesa y Menú Infantil.</item>
@@ -230,7 +230,7 @@
 
     <string-array name="teatro2">
         <!--Titulo [0] -->
-        <item>Pequeño teatro de Medellín</item>
+        <item>Pequeño Teatro de Medellín</item>
         <!--Datos-->
         <!--Descripcion  [1]-->
         <item>La Asociación Pequeño Teatro de Medellín es una entidad artística sin ánimo de lucro, fundada el 12 de febrero de 1975 por Rodrigo Saldarriaga Sanín, quien lideró un grupo de actores interesados en profesionalizar la actividad teatral y en brindar a Medellín un espacio de reflexión teatral.</item>
@@ -274,7 +274,7 @@
 
     <string-array name="bar1">
         <!--Titulo [0] -->
-        <item>El blue</item>
+        <item>El Blue</item>
         <!--Datos-->
         <!--Descripcion  [1]-->
         <item>¿Cansado de los sonidos repetitivos del reggaeton? ¿No está de ánimo para encender las pistas de baile de un club de salsa? El Blue, ubicado cerca del Parque Lleras en la Calle 10 podría ser el lugar oerfecto para usted. Este lugar, para el cual no necesitará un alto presupuesto, presenta una variedad de ritmos alternativos con largos momentos de música rock y retro. Aquí escuchará de todo, desde The Clash y Rolling Stones hasta Rage Against the Machine y Metallica en un misma noche, alternando con un poco de indie, pop, electro y rock colombiano en una buena medida. Además, el lugar también es escenario de algunas bandas locales.</item>
@@ -296,7 +296,7 @@
 
     <string-array name="bar2">
         <!--Titulo [0] -->
-        <item>3 CORDILLERAS</item>
+        <item>3 Cordilleras</item>
         <!--Datos-->
         <!--Descripcion  [1]-->
         <item>Estando en Medellín puede notar que hay otras cervezas disponibles además de las habituales Águila o Club Colombia y que también son deliciosas. La cervecería responsable de este hecho es "Tres Cordilleras" y, así como suministran a diferentes baresde Medellín, el lugar abre sus puertas todos los jueves por la noche a visitantes que buscan disfrutar de la cerveza auténtica.</item>
@@ -318,7 +318,7 @@
 
     <string-array name="bar3">
         <!--Titulo [0] -->
-        <item>El TIBIRI</item>
+        <item>El Tibiri</item>
         <!--Datos-->
         <!--Descripcion  [1]-->
         <item>Este bar, ubicado en un sótano,es uno de los más famosos en Medellín para disfrutar una experiencia de salsa caliente y sudorosa que no olvidará. Es justo decir que El Tibiri no es el bar mejor decorado que va a encontrar, pero lo que le falta en el estilo se compensa con un buen ambiente. Las bebidas son económicas, no hay nada que temer en la pista de baile y, durante el fin de semana, es el lugar preferido de los jóvenes aficionados a la salsa.</item>
