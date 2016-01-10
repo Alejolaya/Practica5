@@ -1,4 +1,364 @@
 <resources>
-    <string name="app_name">Practica5</string>
-    <string name="title_parche_detail">Is there something to do?</string>
+    <string name="app_name">What to do? \nMedellin</string>
+    <string name="title_parche_detail">What\'s up for today</string>
+    <string name="descrip">Description: </string>
+    <string name="datos">Data: </string>
+
+    //LISTA PRINCIPAL
+    <string-array name="hotel1">
+        <!--Titulo [0] -->
+        <item>Casa Kiwi </item>
+        <!--Descripcion  [1]-->
+        <item>Casa Kiwi en El Poblado es un lugar fantástico. Los precios van desde 20.000 pesos por noche e incluyen wi-fi gratis, cocina, una mesa de billar y una preciosa piscina que es el mejor plan para relajarse en Medellín durante un día soleado. Esta es la posada para mochileros más antigua y, sin duda, uno de los albergues más grandes de la ciudad. Además, está muy bien ubicado para salir a dar una vuelta en las tardes y noches.</item>
+        <!--Datos-->
+        <!--Direccion [2]-->
+        <item>Carrera 36 No. 7-10</item>
+        <!--Telefono  [3]-->
+        <item>268 2668</item>
+        <!--URL        [4]-->
+        <item>http://www.casakiwihostel.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Casa-Kiwi-Hostel-Medellin-149450225071557/?fref=ts</item>
+        <!--Mapa-->
+        <!--LATITUD    [6]-->
+        <item>6.2064377</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5682336</item>
+    </string-array>
+
+    <string-array name="hotel2">
+        <!--Titulo [0] -->
+        <item>Hostal Oveja Negra </item>
+
+        <!--Descripcion  [1]-->
+        <item>Es un hostal que fue fundado hace cinco años por un Neozelandés. La Oveja Negra es un lugar agradable y muy popular, con gran pantalla de televisión y wi-fi. Sin duda, un lugar ideal para conocer a otros viajeros.</item>
+        <!--Direccion [2]-->
+        <item>5A transversal, No. 45-133 </item>
+        <!--Telefono  [3]-->
+        <item>268 2668</item>
+        <!--URL        [4]-->
+        <item>http://www.blacksheepmedellin.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Black-Sheep-Hostel-174294435928342/</item>
+        <!--Mapa-->
+        <!--LATITUD    [6]-->
+        <item>6.2064377</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5682336</item>
+    </string-array>
+
+
+    <string-array name="hotel3">
+        <!--Titulo [0] -->
+        <item>Hotel la Habana Vieja</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>cuenta con 18 habitaciones, cada una con capacidad para 5 personas. La decoración es de estilo colonial de La Habana, hay una antesala acogedora con 2 baños, un parque y un bar al aire libre.</item>
+        <!--Direccion [2]-->
+        <item>Calle 10 - Sur, # 43 A - 7</item>
+        <!--Telefono  [3]-->
+        <item>(57 4) 321 25 57 - (57) 317 644 5788</item>
+        <!--URL        [4]-->
+        <item>http://www.hotellahabanaviejamedellin.com</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Hotel-La-Habana-Vieja-Medellín-771303346271247/</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.1964277</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5776772</item>
+
+    </string-array>
+
+    <string-array name="cine1">
+        <!--Titulo [0] -->
+        <item>Procinal</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Have ever happened that you want to give something meaningful and you do not know what? With our bonuses, now you have the opportunity to give something unforgettable and without complication at all! They are valid for all rooms and cafeterias of Procinal Cinemas in Medellin, Rionegro and Apartadó, any time, day and function. It is an ideal gift for friends, family or employees for every occasion and an excellent incentive to reward your team or customers ..</item>
+        <!--Direccion [2]-->
+        <item>Cra 48 #10-45</item>
+        <!--Telefono  [3]-->
+        <item>(574)4442244</item>
+        <!--URL        [4]-->
+        <item>http://procinal.com/home.php</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/procinal/?fref=ts</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.212894</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5785303</item>
+
+    </string-array>
+
+    <string-array name="cine2">
+        <!--Titulo [0] -->
+        <item>Cine Colombia</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Why the Cineco coupons? The coupons are redeemable Cineco individual entries in any theater, day and function, general location and allow you to enjoy special prices nationwide. To purchase see sales conditions. WHY Cineco CARD? With its Cineco card and our Portal you can make the purchase of their tickets or reservations film without leaving your computer.</item>
+        <!--Direccion [2]-->
+        <item>C.c Los molinos</item>
+        <!--Telefono  [3]-->
+        <item>(574)3602463</item>
+        <!--URL        [4]-->
+        <item>http://www.cinecolombia.com/medellin</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/cinecolombiaoficial</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2331753</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.6063687</item>
+
+    </string-array>
+
+    <string-array name="cine3">
+        <!--Titulo [0] -->
+        <item>Royal Films</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Celebrate the birthday of your children, friends, members of the office or business in the best theaters in the country; where you can choose the package you want to enjoy with the company of your closest guests. We will give you balloons, invitation cards and basic decoration with motifs of the film.</item>
+        <!--Direccion [2]-->
+        <item>C.c El bosque plaza</item>
+        <!--Telefono  [3]-->
+        <item>(575)3855100</item>
+        <!--URL        [4]-->
+        <item>http://www.royal-films.com/index.php</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/RoyalFilms</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2689957</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5655516</item>
+
+    </string-array>
+
+
+    <string-array name="rest1">
+        <!--Titulo [0] -->
+        <item>Hato Viejo</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>More than thirty years ago, the history of the restaurant Hatoviejo began when it was born in Las Palmas variant in front of the Intercontinental Hotel in Medellin, Colombia. The aim was to give the city a welcoming place for families, business people and tourists that reflected the culture paisa while offering visitors the best of our Colombian food (Tray Paisa, chili sauce, stew, Mondong0, sweaty, etc. ) supplemented with roasted (also called "Planchitas" in Hatoviejo).</item>
+        <!--Direccion [2]-->
+        <item>Calle 6 Sur No.43A-227 4 Piso Local 6</item>
+        <!--Telefono  [3]-->
+        <item>321 19 65 - 321 19 66</item>
+        <!--URL        [4]-->
+        <item>http://hatoviejo.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/restaurantehatoviejo</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2150391</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5606013</item>
+
+    </string-array>
+
+
+    <string-array name="rest2">
+        <!--Titulo [0] -->
+        <item>Mondongo\´s</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Mondongo\'s; Only restaurant of its kind, focused especially on the typical Antioquian gastronomy, a place where tradition and culture delight for taste and attention. Our offer consists of 9 excellent dishes: Mondongo, Antioquia signature dish, Grilled Chicken, Grilled Sirloin, grilled Canyon, Canyon Mushroom Sauce and Grilled Skirt Steak, Breaded Fish and children\'s menu.</item>
+        <!--Direccion [2]-->
+        <item>Calle 10 # 38-38</item>
+        <!--Telefono  [3]-->
+        <item>3122346</item>
+        <!--URL        [4]-->
+        <item>http://www.mondongos.com.co/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/RestauranteMondongos/info/?tab=page_info</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2097078</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5700967</item>
+
+    </string-array>
+
+
+    <string-array name="rest3">
+        <!--Titulo [0] -->
+        <item>JyC</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>"J y C Delicias" was born on July 4, 1980, in the carrera 76 No. 33 A 48, in a small garage of Laureles, Medellin by the idea of the father and the aunt of the founder, to whom he helped with their work and who for his love of cooking and experience in temporary jobs in family restaurants, led him to start his own company in the same industry.</item>
+        <!--Direccion [2]-->
+        <item>Calle 30 A # 82 A - 26 Local 2057 - 2do piso</item>
+        <!--Telefono  [3]-->
+        <item>347 44 00</item>
+        <!--URL        [4]-->
+        <item>http://www.jycdelicias.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/jycdeliciascolombia/</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.1965146</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.6116026</item>
+
+    </string-array>
+
+
+    <string-array name="teatro1">
+        <!--Titulo [0] -->
+        <item>Metropolitano</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Medellin Cultural Association is a nonprofit association, dedicated since 1975 to promote culture by projection and dissemination of various local, national and international artistic expressions.</item>
+        <!--Direccion [2]-->
+        <item>Calle 41 No. 57 - 30</item>
+        <!--Telefono  [3]-->
+        <item>(57 4) 232 28 58</item>
+        <!--URL        [4]-->
+        <item>http://www.teatrometropolitano.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Teatro-Metropolitano-José-Gutiérrez-Gómez-Medellín-312033859230/photos_stream?tab=photos</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2432169</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5797098</item>
+
+    </string-array>
+
+    <string-array name="teatro2">
+        <!--Titulo [0] -->
+        <item>Pequeño Teatro de Medellín</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>The Little Theatre of Medellin Association is a nonprofit arts organization founded on February 12, 1975 by Rodrigo Saldarriaga Sanin, who led a group of actors interested in professionalize the theatrical activity and provide a space for theatrical reflection in Medellin</item>
+        <!--Direccion [2]-->
+        <item>Carrera 42 # 50A-12</item>
+        <!--Telefono  [3]-->
+        <item>(574)2393947</item>
+        <!--URL        [4]-->
+        <item>http://www.pequenoteatro.com/web/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/pequenoteatrodemedellin/timeline</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.247564</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5639232</item>
+
+    </string-array>
+
+    <string-array name="teatro3">
+        <!--Titulo [0] -->
+        <item>Teatro Matacandelas</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>In the outside it looks like a house over the street Bomboná, with tiled roofs  almost black by the passing years: one of those old houses in the center that still refuse to be demolished. Inside, between those thick walls, built in the late nineteenth century, it resembles a house taken from a story by Julio Cortazar: the walls are filled with posters announcing plays, people in and out carrying pieces of cardboard painted colorful, dolls, dresses, wigs; They hear hammers banging tables; the telephone rings. In the afternoon, there is only silence in the bar, which is closed, and the theater, which is empty and dark. But at night, everything will be different. Elves that have taken over this old mansion in Medellin will come, and the lights will turn on..</item>
+        <!--Direccion [2]-->
+        <item>Cl. 47 43-47</item>
+        <!--Telefono  [3]-->
+        <item>(574)215-1010</item>
+        <!--URL        [4]-->
+        <item>http://www.matacandelas.com/index.php</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/matacandelas</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2444812</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5668724</item>
+
+    </string-array>
+
+    <string-array name="bar1">
+        <!--Titulo [0] -->
+        <item>El Blue</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>Tired of the repetitive sounds of reggaeton? You are not in the mood to turn on the dance floor of a salsa club? The Blue, located near the Parque Lleras on 10th Street could be the perfect place for you. This place, where there is not need for a high budget, presents a variety of alternative rhythms with long moments of rock and retro music. Here you will hear everything from The Clash and Rolling Stones to Rage Against the Machine and Metallica on a night, alternating with a little indie, pop, electro and Colombian rock in a good measure. Also, the place is the scene of some local bands.</item>
+        <!--Direccion [2]-->
+        <item>Cll. 10 40-20</item>
+        <!--Telefono  [3]-->
+        <item>266 3047</item>
+        <!--URL        [4]-->
+        <item></item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/Blue-Medellin-145792858776714/</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2099824</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5705314</item>
+
+    </string-array>
+
+    <string-array name="bar2">
+        <!--Titulo [0] -->
+        <item>3 Cordilleras</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>While in Medellin you may notice that there are other beers available beside the usual Aguila or Club Colombia and they are also delicious. The brewery responsible for this is "Tres Cordilleras" and as different bars of Medellin, the place opens its doors every Thursday night to visitors who are looking to enjoy the real ale.</item>
+        <!--Direccion [2]-->
+        <item>Calle 30 # 44-176</item>
+        <!--Telefono  [3]-->
+        <item>4442337</item>
+        <!--URL        [4]-->
+        <item>http://www.3cordilleras.com/</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/cerveza3cordilleras</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2452397</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5682087</item>
+
+    </string-array>
+
+    <string-array name="bar3">
+        <!--Titulo [0] -->
+        <item>El Tibiri</item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item>This bar placed in a basement is one of the more famous in Medellin to enjoy an experience of hot and sweaty salsa you won’t forget. It’s fair to say that El Tibiri is not the best decorated bar you will find, but what lacks in style is compensated with good vibes. The drinks are cheap, there’s nothing to fear in the dance floor and, during the weekend, it is the favourite place of young salsa lovers.</item>
+        <!--Direccion [2]-->
+        <item>Calle 44B #70, cerca de la Estación Estadio</item>
+        <!--Telefono  [3]-->
+        <item></item>
+        <!--URL        [4]-->
+        <item>https://www.facebook.com/tibiri.bar</item>
+        <!--facebook   [5]-->
+        <item>https://www.facebook.com/tibiri.bar</item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item>6.2502739</item>
+        <!--LONGITUD    [7]-->
+        <item>-75.5908904</item>
+
+    </string-array>
+
+    <string-array name="name">
+        <!--Titulo [0] -->
+        <item></item>
+        <!--Datos-->
+        <!--Descripcion  [1]-->
+        <item></item>
+        <!--Direccion [2]-->
+        <item></item>
+        <!--Telefono  [3]-->
+        <item></item>
+        <!--URL        [4]-->
+        <item></item>
+        <!--facebook   [5]-->
+        <item></item>
+        <!--MAPAS-->
+        <!--LATITUD    [6]-->
+        <item></item>
+        <!--LONGITUD    [7]-->
+        <item></item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
 </resources>
